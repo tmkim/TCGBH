@@ -1,0 +1,11 @@
+{% if card_list %}
+    {% for card in card_list %}
+        <h1>{{card.name}}</h1>
+        <h2>{{card.market_price}}</h2>
+    {% endfor %}
+    <h3><a href="">Go to Decks</a></h3>
+{% else %}
+    <h1>No cards available</h1>
+    <h3><a href="{% url 'optcg:decks' %}">Decks</a></h3>
+    <h3><a href="{% url 'optcg:index' %}">Index</a></h3>
+{% endif %}

@@ -1,0 +1,11 @@
+{% if deck_list %}
+    {% for deck in deck_list %}
+        <h1>{{deck.owner}}</h1>
+        <h2>{{deck.name}}</h2>
+    {% endfor %}
+    <h3><a href="">Go to Cards</a></h3>
+{% else %}
+    <h1>No decks available</h1>
+    <h3><a href="{% url 'optcg:cards' %}">Cards</a></h3>
+    <h3><a href="{% url 'optcg:index' %}">Index</a></h3>
+{% endif %}

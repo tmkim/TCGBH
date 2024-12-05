@@ -2,8 +2,11 @@
 Trading Card Game - Bounty Hunter : Useful app for calculating the market price for several trading cards
 
 The goal is to provide an app to help users calculate the cost of building a deck for the [One Piece] TCG, using information from TCGPlayer via https://tcgcsv.com/
-This may help users finance their own decks, and calculate the cost of decks seen in competitive play.
+End goal is similar to a combination of Egman Deckbuilder + TCG Player market prices
+This may help users finance their own decks, keep track of what cards they already own, and calculate the cost of decks seen in competitive play.
 Extra: Users may save price data for future comparisons
+
+Users will not have to log in for basic functionality. Login will allow for extra features such as saving cards/decks.
 
 Users will be able to : 
     - Create a deck list
