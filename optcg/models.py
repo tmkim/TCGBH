@@ -42,12 +42,15 @@ class Card(models.Model):
     def get_info(self):
         return {
             'name' : self.name,
-            'market_price' :self.market_price,
+            'market_price' : self.market_price,
             'rarity': self.rarity,
             'desc': self.desc,
             'color': self.color,
             'cost': self.cost,
         }
+    
+    def has_market_price(self):
+        return self.market_price > 0
 
 class Deck2Cards(models.Model):
     deck_id = models.ForeignKey(Deck, on_delete=models.CASCADE)

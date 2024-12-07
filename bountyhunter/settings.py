@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'debug_toolbar',
 ]
 
 MIDDLEWARE = [
@@ -48,7 +49,12 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
 ]
+
+DEBUG_TOOLBAR_CONFIG = {
+    'SHOW_TOOLBAR_CALLBACK': lambda request: True,  # You can configure when to show the toolbar
+}
 
 ROOT_URLCONF = 'bountyhunter.urls'
 
@@ -81,7 +87,10 @@ DATABASES = {
             "service": "tcgbh_service",
             "passfile": ".pgpass",
         },
-    }
+        "TEST": {
+            "NAME": "test_db",
+        }
+    },
 }
 
 

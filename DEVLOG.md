@@ -86,3 +86,47 @@ MM/DD/YYYY:
         - Set up automated testing
         - customize admin
         - django debug toolbar
+
+MM/DD/YYYY:
+    > Daily Objective:
+        - Populate database via CSV
+        - django debug toolbar
+        - customize admin
+        - Set up automated testing
+        - 
+    > Progress:
+        - Populate database via CSV
+            > new tools folder
+                ~ csv.json  csv2json.py  test.csv
+            > pm loaddata {fixture}.json 
+                .. This is good for one-time import
+            LATER : figure out how to do automatically
+            LATER : learn more about Fixtures
+
+        - Django Debug Toolbar (https://django-debug-toolbar.readthedocs.io/en/latest/installation.html)
+            > python -m pip install django-debug-toolbar
+            > update bountyhunter/settings.py
+                (INSTALLED_APPS, MIDDLEWARE, DEBUG_TOOLBAR_CONFIG)
+            > update bountyhunter/urls.py
+                path('__debug__/', include('debug_toolbar.urls'))
+            ** Only appears on admin **
+
+        - customize admin
+            > updae optcg/admin.py
+            > include @admin.display in optcg/models.py
+            ** more admin customization : https://docs.djangoproject.com/en/5.1/intro/tutorial07/
+
+        - Set up automated testing
+            > optcg/tests.py
+            > pm test --keepdb optcg
+                .. don't need "--keepdb" but helps with issues re: permissions to create/delete db
+                .. having some issues with user having permission to create db
+                .. hotfix -> 
+                    - update settings.py to set TEST db name
+                    $ sudo -u postgres psql postgres
+                    > CREATEDB test_db;
+            LATER : add more tests, tests for views
+
+    > TODO:
+        - Set up test for views
+        - Start building individual card lookup
