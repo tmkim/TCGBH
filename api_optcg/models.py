@@ -3,7 +3,7 @@ from django.db import models
 from django.contrib.auth.models import User
 
 class Deck(models.Model):
-    owner = models.ForeignKey(User, on_delete=models.CASCADE)
+    # owner = models.ForeignKey(User, on_delete=models.CASCADE)
     name = models.CharField(max_length=200)
     created = models.DateTimeField("Date Created")
     modified = models.DateTimeField("Last Modified")

@@ -137,6 +137,16 @@ MM/DD/YYYY:
     > Progress:
         - Implement Django Rest Framework
             > set up new app api_optcg
-               
+            > update models.py
+            > create serializers.py (use HyperlinkedModelSerializer)
+                .. not sure if Hyperlink necessary yet, can change later
+            > generic viewsets for deck, cards, users, api_root
+                .. need deck2cards
+            > update project urls.py to include new app
+            > update app urls.py to use router for API endpoints
+            > tested that data can be added to and retrieved from database
+
     > TODO:
-        - 
+        - Flesh out relations/hyperlinks
+            - Auth & Permissions
+            - Req & Response
