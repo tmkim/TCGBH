@@ -87,7 +87,7 @@ MM/DD/YYYY:
         - customize admin
         - django debug toolbar
 
-MM/DD/YYYY:
+12/06/2024:
     > Daily Objective:
         - Populate database via CSV
         - django debug toolbar
@@ -128,5 +128,15 @@ MM/DD/YYYY:
             LATER : add more tests, tests for views
 
     > TODO:
-        - Set up test for views
+        - LATER : Set up test for views
         - Start building individual card lookup
+
+12/20/2024
+    > Daily Objective:
+        - Implement Django Rest Framework
+    > Progress:
+        - Implement Django Rest Framework
+            > set up new app api_optcg
+               
+    > TODO:
+        - 
