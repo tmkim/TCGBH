@@ -22,3 +22,5 @@
     > Users can save decks and easily load them
     > Users can import/export following OP Sim format
     >
+
+- Consider using ElasticSearch for card search

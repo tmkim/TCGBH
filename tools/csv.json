@@ -1,1 +1,122 @@
-[{"model": "optcg.card", "pk": 1, "fields": {"name": "Luffy", "market_price": "710.00", "rarity": "SSSR", "desc": "stronk man", "color": "Black", "cost": "9\n"}}, {"model": "optcg.card", "pk": 2, "fields": {"name": "Zoro", "market_price": "420.00", "rarity": "SSR", "desc": "very ztronk", "color": "Red", "cost": "7\n"}}, {"model": "optcg.card", "pk": 3, "fields": {"name": "Sanji", "market_price": "419.00", "rarity": "SSR", "desc": "big kick", "color": "Green", "cost": "6\n"}}, {"model": "optcg.card", "pk": 4, "fields": {"name": "Sogeking", "market_price": "1000.15", "rarity": "GOD", "desc": "Manga", "color": "Blue", "cost": "5\n"}}, {"model": "optcg.card", "pk": 5, "fields": {"name": "Robin", "market_price": "222.22", "rarity": "SR", "desc": "many hands", "color": "Purple", "cost": "8\n"}}, {"model": "optcg.card", "pk": 6, "fields": {"name": "Nami", "market_price": "888.88", "rarity": "SR", "desc": "much navi", "color": "Blue", "cost": "3\n"}}, {"model": "optcg.card", "pk": 7, "fields": {"name": "Choppa", "market_price": "4.20", "rarity": "C", "desc": "pet", "color": "Red", "cost": "4\n"}}, {"model": "optcg.card", "pk": 8, "fields": {"name": "Brook", "market_price": "69.69", "rarity": "SR", "desc": "pantsu", "color": "Black", "cost": "5\n"}}, {"model": "optcg.card", "pk": 9, "fields": {"name": "Franky", "market_price": "808.22", "rarity": "SSR", "desc": "SUUUPPERRRR", "color": "Green", "cost": "6\n"}}, {"model": "optcg.card", "pk": 10, "fields": {"name": "Jinbe", "market_price": "444.44", "rarity": "SSR", "desc": "Fshhhhh", "color": "Blue", "cost": "5"}}]
+[
+    {
+        "model": "optcg.card",
+        "pk": 1,
+        "fields": {
+            "name": "Luffy",
+            "market_price": "710.00",
+            "rarity": "SSSR",
+            "desc": "stronk man",
+            "color": "Black",
+            "cost": "9\n"
+        }
+    },
+    {
+        "model": "optcg.card",
+        "pk": 2,
+        "fields": {
+            "name": "Zoro",
+            "market_price": "420.00",
+            "rarity": "SSR",
+            "desc": "very ztronk",
+            "color": "Red",
+            "cost": "7\n"
+        }
+    },
+    {
+        "model": "optcg.card",
+        "pk": 3,
+        "fields": {
+            "name": "Sanji",
+            "market_price": "419.00",
+            "rarity": "SSR",
+            "desc": "big kick",
+            "color": "Green",
+            "cost": "6\n"
+        }
+    },
+    {
+        "model": "optcg.card",
+        "pk": 4,
+        "fields": {
+            "name": "Sogeking",
+            "market_price": "1000.15",
+            "rarity": "GOD",
+            "desc": "Manga",
+            "color": "Blue",
+            "cost": "5\n"
+        }
+    },
+    {
+        "model": "optcg.card",
+        "pk": 5,
+        "fields": {
+            "name": "Robin",
+            "market_price": "222.22",
+            "rarity": "SR",
+            "desc": "many hands",
+            "color": "Purple",
+            "cost": "8\n"
+        }
+    },
+    {
+        "model": "optcg.card",
+        "pk": 6,
+        "fields": {
+            "name": "Nami",
+            "market_price": "888.88",
+            "rarity": "SR",
+            "desc": "much navi",
+            "color": "Blue",
+            "cost": "3\n"
+        }
+    },
+    {
+        "model": "optcg.card",
+        "pk": 7,
+        "fields": {
+            "name": "Choppa",
+            "market_price": "4.20",
+            "rarity": "C",
+            "desc": "pet",
+            "color": "Red",
+            "cost": "4\n"
+        }
+    },
+    {
+        "model": "optcg.card",
+        "pk": 8,
+        "fields": {
+            "name": "Brook",
+            "market_price": "69.69",
+            "rarity": "SR",
+            "desc": "pantsu",
+            "color": "Black",
+            "cost": "5\n"
+        }
+    },
+    {
+        "model": "optcg.card",
+        "pk": 9,
+        "fields": {
+            "name": "Franky",
+            "market_price": "808.22",
+            "rarity": "SSR",
+            "desc": "SUUUPPERRRR",
+            "color": "Green",
+            "cost": "6\n"
+        }
+    },
+    {
+        "model": "optcg.card",
+        "pk": 10,
+        "fields": {
+            "name": "Jinbe",
+            "market_price": "444.44",
+            "rarity": "SSR",
+            "desc": "Fshhhhh",
+            "color": "Blue",
+            "cost": "5"
+        }
+    }
+]
