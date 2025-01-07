@@ -150,3 +150,6 @@ MM/DD/YYYY:
         - Flesh out relations/hyperlinks
             - Auth & Permissions
             - Req & Response
+
+1/7/2025
+    Just popping in to include the idea of implementing pyspark for maintaining the database using CSVs from tcgcsv. Good for processing large files and scheduling batch jobs - could be a great option for daily updates for market prices.
